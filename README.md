@@ -1,28 +1,5 @@
 # LLD_Hotel_Rating
 
-user1 = User("Jitesh")
-user2 = User("Tarun")
-user3 = User("Sumit")
-user4 = User("Priyanka")
-
-
-hotel1 = Hotel("Radisson", True)
-hotel2 = Hotel("LeelaPalace")
-hotel3 = Hotel("TwoStar")
-hotel4 = Hotel("Taj", True)
-hotel5 = Hotel("Oberoi")
-hotel6 = Hotel("SandPiper")
-
-rating1 = Rating(user1.get_id(), hotel1.get_id(), 4, "Good Nice Place")
-rating2 = Rating(user2.get_id(), hotel1.get_id(), 1, "Bad Place")
-rating3 = Rating(user3.get_id(), hotel1.get_id(), 2, "Water Not Working")
-rating4 = Rating(user4.get_id(), hotel1.get_id(), 1, "Geyser Not working")
-rating5 = Rating(user1.get_id(), hotel3.get_id(), 5, "Good Nice Place")
-rating6 = Rating(user1.get_id(), hotel5.get_id(), 5, "Best Place to Stay")
-rating7 = Rating(user3.get_id(), hotel6.get_id(), 2, "Manager bad talking")
-rating8 = Rating(user2.get_id(), hotel3.get_id(), 3, "No Parking")
-
-
 
 # Queries
 1) service.find_all_hotels()
