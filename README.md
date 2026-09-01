@@ -1,4 +1,12 @@
-# LLD_Hotel_Rating
+# LLD Hotel Rating
+
+A Python low-level-design exercise for modelling hotels, ratings, query filters, and sort order.
+
+> Learning project — intended to demonstrate object modelling and service-layer query logic, not a production booking system.
+
+## Query flow
+
+![Hotel rating query flow](docs/hotel-rating-flow.svg)
 
 
 # Queries
